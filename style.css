@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background: #fff;
+  height: 100px;
+  width: 100vw;
+  border-bottom: 1px solid;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.left h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.left .links a {
+  color: gray;
+  margin: 0 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.left .links a:hover {
+  transition: ease-in;
+  transition-duration: 100ms;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#sign-up {
+  margin-right: 20px;
+  height: 35px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0.5px solid;
+}
+
+#sign-up:hover {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+  height: 40px;
+  border: 1px solid gray;
+}
+
+#quote{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    color: gray;
+    font-family: cursive;
+}
+
+.image {
+  width: 85%;
+  height: 350px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 250px;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 10px solid rgb(3, 3, 51);
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 70px;
+  right: 200px;
+  padding: 5px;
+  box-shadow: 0px 0px 20px #000;
+}
+
+input,
+textarea {
+  padding: 6px 18px;
+  font-size: 16px;
+  width: 260px;
+  height: 35px;
+  background-color: rgb(224, 217, 217);
+  border: none;
+}
+
+select {
+  width: 260px;
+  height: 35px;
+  padding: 6px 18px;
+  background-color: rgb(224, 217, 217);
+  color: grey;
+  border: none;
+}
+
+textarea {
+  height: 100px;
+  font-size: 18px;
+  color: grey;
+  padding: 6px 18px;
+}
+
+.btn2 {
+  background-color: rgb(255, 0, 21);
+  margin-bottom: 50px;
+  width: 285px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: bolder;
+  position: absolute;
+  left: -20px;
+  color: white;
+  margin-top: 120px;
+  font-size: 28px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 0;
+  background: #ebfaeb;
+}
+#footer pre {
+  margin-left: 50px;
+  color: gray;
+  font-size: 20px;
+}
+.social {
+  display: flex;
+  margin-left: 30px;
+}
+.social a {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+}
+
+main p {
+  display: block;
+  margin: auto;
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#presenters {
+  width: 90%;
+  margin: 50px auto 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#presenters div {
+  flex-basis: 30%;
+}
+
+#presenters div img {
+  width: 362px;
+  border-radius: 10px;
+  margin: 10px;
+}
